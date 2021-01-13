@@ -5,7 +5,7 @@ require('http')
     res.writeHeader(200,{'Content-Type': 'text/html'})
     res.write('<p>DEVOPS</p>')
     res.write('<p>KAAYLABS</p>')
-    res.end('<h1>KAAYLABS DEVOPS TEAMS</h1>')
+    res.end('<h1>WELCOME KAAYLABS DEVOPS TEAMS</h1>')
   })
   .listen(port, (error)=>{
     console.log(`server is running on ${port}`)
